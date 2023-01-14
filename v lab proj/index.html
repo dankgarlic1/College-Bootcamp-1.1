@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prime Number</title>
+</head>
+<style>
+    .BIGbox{
+        background-color: rgb(0, 52, 65);
+    }
+    #vlab{
+        color: whitesmoke;
+        margin-left: 150px;
+    }
+    .box1{
+        display: flex;
+        justify-content: left;
+    }
+   #headers{
+    display: inline;
+    margin: 40px;
+    font-size: larger;
+   }
+   #wow{
+    margin-left: 500px;
+   }
+   #headers:hover{
+         background-color: #00ffff7e;
+        border-radius: 25px;
+        padding: 6px;
+   }
+   .box2{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+   }
+   .buttons{
+    border-color: rgb(0, 52, 65) ;
+
+   }
+   
+   .parent{
+    border: 3px black;
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(0, 52, 65);
+    border-radius: 25px;
+   }
+   .child{
+    padding-top: 20px;
+    margin: 2% 18px;
+    border: 2px solid whitesmoke;
+    border-radius: 10px;
+    background-color: rgb(0, 52, 65);
+    width: 115px;
+    height: 120px;
+    text-align: center;
+    color: whitesmoke;
+   }
+   .child:hover{
+        background-color: #00ffff7e;
+   }
+   .aimbox{
+    padding: 15px;
+    background-color: whitesmoke;
+    box-shadow: 0 6px 20px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
+    border-radius: 25px;
+    /* border: 3px solid black; */
+   }
+   .aimhead{
+    padding: 5px 10px;
+    color: whitesmoke;
+    background-color: rgb(0, 52, 65);
+    width: fit-content;
+    margin-left: 10px;
+    border-radius: 0px 15px 0px 15px;
+   }
+   .theorybox{
+    padding: 15px;
+    background-color: whitesmoke;
+    box-shadow: 500px;
+    border-radius: 25px;
+    /* border: 3px solid black; */
+    box-shadow: 0 6px 20px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
+   }
+   .theoryhead{
+    color: whitesmoke;
+    background-color: rgb(0, 52, 65);
+    width: fit-content;
+    padding: 5px 10px;
+    border-radius: 0px 15px 0px 15px;
+    margin-left: 10px;
+   }
+   .Psuedocodehead{
+    color: whitesmoke;
+    background-color: rgb(0, 52, 65);
+    width: fit-content;
+    border-radius: 0px 15px 0px 15px;
+    margin-left: 10px;
+    padding: 5px 10px;
+   }
+   .whilehead{
+    color: whitesmoke;
+    background-color: rgb(0, 52, 65);
+    width: fit-content;
+    border-radius: 0px 15px 0px 15px;
+    margin-left: 10px;
+    padding: 5px 10px;
+   }
+   .syntax{
+    color: blue;
+   }
+   .while{
+    color: red;
+   }
+   .block{
+    color: green;
+   }
+
+</style>
+<body>
+     <header class="BIGbox">
+        <div class="box1">
+            <img src="logo.png" alt="sorry" height="63.2" width="64">
+            <div>
+                <h1 id="vlab" >V-Lab@ANDC</h1>
+            </div>
+            <ul id="wow">
+                <li id="headers"  ><a href="https://www.vlab.andcollege.du.ac.in/index.html" style="color: whitesmoke;">Home</a></li> 
+                <li id="headers" ><a href="https://www.vlab.andcollege.du.ac.in/index.html#lab_section" style="color: whitesmoke;">Labs</a></li>
+                <li id="headers" ><a href="https://www.vlab.andcollege.du.ac.in/index.html#team" style="color: whitesmoke;">Teams</a></li>
+                <li id="headers" ><a href="https://www.vlab.andcollege.du.ac.in/https://www.andcollege.du.ac.in/" style="color: whitesmoke;">College Website</a></li>
+            </ul>
+        </div>
+     </header>
+     <div class="box2">
+        <h1>Generate nth Prime Number</h1>
+     </div>
+     <br>
+     <br>
+        <div class="parent">
+            <div class="child">
+                <img src="images.png" alt=""height="45px" width="45px">
+                <a href="#1"><h4 style="margin-right: 5px; color: whitesmoke;">Aim</h4></a>
+            </div>
+            <div class="child">
+                <img src="1648697.png" alt="" height="45px" width="45px">
+                <a href="#2"><h4 style="color: whitesmoke;" >Theory</h4></a>
+            </div>
+            <div class="child">
+                <img src="23-512.png" alt="" height="45px" width="45px">
+                <h4>Proedure</h4>
+            </div>
+            <div class="child">
+                <img src="editable-minimal.png" alt="" height="45px" width="45px">
+                <h4> Practice</h4>
+            </div>
+        </div>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <div class="aimbox" id="1">
+            <div class="aimhead">
+                <h1>Aim</h1>
+            </div>
+                <pre><h1>        To generate nth Prime number </h1></pre>
+        </div>
+        <br>
+        <br>
+        <div class="theorybox" id="2" >
+            <div class="theoryhead">
+                <h1>Theory</h1>
+            </div>
+            <br>
+            <br>
+            <br>
+            <br>
+            <h2><b><pre>    A prime number is a natural number greater than 1 and is divisible by 1 or itself only.</pre></b></h2>
+            <br>
+            <br>
+            <h2><pre>      The nth prime number will be the nth position in the list of natural numbers after removing all the composites.
+
+                For example:-
+                
+                            1st prime number is 2.
+                
+                            2nd prime number is 3.
+                
+                            4th prime number is 7.</pre></h2>
+        <br>
+        <div class="Psuedocodehead">
+            <h1>Psuedocode</h1>
+        </div>
+        <br>
+        <pre> <h2>       #Function to generate nth Prime Number
+            nthPrime(n):
+              initialize counter variable to 0 and  num variable to 1 
+               while counter is less than n:
+                    increment num by 1
+                    for i=2 to num:
+                    #Determines the modulo and compare it  to zero.
+                        if(num%i==0):  
+                            #breaks the loop if the above condition returns true  
+                                break
+                        if(num==i) :#if denominator is same as numerator 
+                            increments the counter variable by 1 if the number is prime 
+                    EndFor
+                EndWhile 
+                print("The nth prime numer is "+ num)   #Print the prime number</h2></pre>
+            <div class="whilehead">
+                <h1>The While Loop:-</h1>
+            </div>
+            <h2><pre>          With the while loop, we can execute a set of statements as long as a condition is true </pre></h2>
+            <br>
+            <br>
+            <pre class="syntax"><h2>
+                    SYNTAX
+            </h2></pre>
+            <pre class="while"><h2>
+                       While(condition):
+        </h2></pre>
+            <pre class="block"><h2>
+                             //code block to be executed
+        </h2></pre>
+    </div>
+
+
+        
+     
+</body>
+</html>
